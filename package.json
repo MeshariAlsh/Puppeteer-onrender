@@ -1,0 +1,21 @@
+{
+  "name": "pyscrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverSide.js",
+  "scripts": {
+    "start": "node serverSide.js",
+    "postinstall": "npx puppeteer install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^22.11.2"
+  }
+}
